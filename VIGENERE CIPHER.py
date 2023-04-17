@@ -29,3 +29,4 @@ if __name__ == "__main__":
     res2=pyg.figlet_format((cipher_text), font= "smkeyboard", width=300)
     print(colored((res1), "blue"))  
     print(colored((res2), "green"))
+    
