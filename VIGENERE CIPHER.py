@@ -25,3 +25,7 @@ if __name__ == "__main__":
     keyword = input("ENTER THE KEYWORD: ")
     key = generateKey(string, keyword)
     cipher_text = cipher(string,key)
+    res1=pyg.figlet_format("CYPHERTEXT:", font= "speed", width=250)
+    res2=pyg.figlet_format((cipher_text), font= "smkeyboard", width=300)
+    print(colored((res1), "blue"))  
+    print(colored((res2), "green"))
