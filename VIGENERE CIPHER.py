@@ -24,3 +24,4 @@ if __name__ == "__main__":
     string = input("ENTER THE MESSAGE: ")
     keyword = input("ENTER THE KEYWORD: ")
     key = generateKey(string, keyword)
+    cipher_text = cipher(string,key)
